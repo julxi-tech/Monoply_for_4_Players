@@ -1,2 +1,9 @@
-package org.example;public interface ICanBeCompared {
+package org.example;
+
+
+public interface ICanBeCompared {
+
+    public boolean isGreaterThan(ICanBeCompared ican);
+
+
 }
